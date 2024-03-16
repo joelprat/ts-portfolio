@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "TripSans";
+  src: url("/src/assets/TripSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Snell";
+  src: url("/src/assets/SnellRoundhandLTStd-Scr.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "TripSans";
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+.snell {
+  font-family: "Snell";
+}
+
+.animation {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Empezar con opacidad 0 (invisible) */
+  }
+  to {
+    opacity: 1; /* Terminar con opacidad 1 (completamente visible) */
+  }
+}
