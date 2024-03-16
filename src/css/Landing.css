@@ -31,14 +31,16 @@
 .landing-left h1 {
   font-weight: bold;
   font-size: 65px;
-  text-shadow: 0px 0px 15px silver;
+  text-shadow: 0px 0px 15px rgb(192, 192, 192);
+  text-align: center;
 }
 
 .landing-left h3 {
   font-weight: bold;
   font-size: 55px;
   color: gold;
-  text-shadow: 1.5px 1.5px 1.5px goldenrod;
+  text-shadow: 1.5px 1.5px 1.5px rgb(165, 42, 42);
+  text-align: center;
 }
 
 .landing-left ul {
@@ -60,4 +62,54 @@
 .active {
   color: gold;
   border: 1px solid gold;
+}
+
+@media (max-width: 1200px) {
+  .landing {
+    flex-direction: column;
+  }
+
+  .landing-left {
+    border-bottom: 1px solid gold;
+    border-right: 0;
+  }
+  .landing-right {
+    border-top: 1px solid gold;
+    border-left: 0;
+  }
+
+  .landing-left {
+    height: 60%;
+    width: 80%;
+  }
+
+  .landing-left h1,
+  .landing-left h3 {
+    width: 100%;
+  }
+
+  .landing-right {
+    height: 40%;
+  }
+}
+
+@media (max-width: 885px) {
+  .landing-right {
+    width: 80%;
+  }
+  /*   .landing-left h1 {
+    text-shadow: none;
+  } */
+}
+
+@media (max-width: 440px) {
+  .landing-left h3 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .landing-left h1 {
+    font-size: 40px;
+  }
 }

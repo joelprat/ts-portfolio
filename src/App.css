@@ -39,3 +39,7 @@
     opacity: 1; /* Terminar con opacidad 1 (completamente visible) */
   }
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

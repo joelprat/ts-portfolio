@@ -25,7 +25,7 @@
 
 .about-exp h3 {
   font-size: 20px;
-  font-weight: bold;
+  text-align: center;
 }
 
 .exp {
@@ -35,4 +35,24 @@
   -webkit-text-fill-color: #0000;
   background: linear-gradient(90deg, gold, black);
   -webkit-background-clip: text;
+}
+
+@media (max-width: 1200px) {
+  .about p {
+    width: 100%;
+  }
+
+  .about-exp {
+    width: 100%;
+  }
+}
+
+@media (max-width: 440px) {
+  .about-exp h3 {
+    font-size: 15px;
+  }
+
+  .exp {
+    width: 50%;
+  }
 }

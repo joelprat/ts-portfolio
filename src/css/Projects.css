@@ -28,3 +28,15 @@
 .project img {
   max-width: 100px;
 }
+
+@media (max-width: 1200px) {
+  .project {
+    width: 200px;
+    height: 150px;
+  }
+
+  .projects {
+    margin-top: 40px;
+    overflow-y: scroll;
+  }
+}

@@ -16,3 +16,12 @@
 .contact img:hover {
   width: 90px;
 }
+
+@media (max-width: 1200px) {
+  .contact {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 885px) {
+}
