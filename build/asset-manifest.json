@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fa6275b.css",
+    "main.js": "/static/js/main.3e5c6776.js",
+    "static/media/TripSans-Regular.ttf": "/static/media/TripSans-Regular.8ba82c2d6e929f226c23.ttf",
+    "static/media/SnellRoundhandLTStd-Scr.ttf": "/static/media/SnellRoundhandLTStd-Scr.dd7920fe83c4ffa7802b.ttf",
+    "index.html": "/index.html",
+    "main.2fa6275b.css.map": "/static/css/main.2fa6275b.css.map",
+    "main.3e5c6776.js.map": "/static/js/main.3e5c6776.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fa6275b.css",
+    "static/js/main.3e5c6776.js"
+  ]
+}

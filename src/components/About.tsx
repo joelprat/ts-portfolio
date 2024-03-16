@@ -10,7 +10,7 @@ export default function About() {
       const currentDate = BigInt(new Date().getTime());
       const milsecDif = currentDate - initialDate;
       const yearDif = Number(milsecDif) / (365.25 * 24 * 60 * 60 * 1000);
-      setDifDate(yearDif.toFixed(10));
+      setDifDate(yearDif.toFixed(8));
     }, 100);
 
     return () => {
